@@ -4,38 +4,36 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted">Software Engineer for work, snowboarder for winter fun</h3>
                 </div>
             </div>
             
             <div class="row">
                 {% for member in site.people %}
-                <div class="col-sm-4 col-sm-offset-4">
+                <div class="col-sm-6 col-sm-offset-3">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
+                        <p class="large text-muted">Full time coder; part time boarder. They don't pay me enough so I'm out here trying to share my passion.</p>
                     </div>
                 </div>
                 {% endfor %}
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    
                 </div>
             </div>
         </div>
-        
-
         <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
                     {% for event in site.events %}
                     {% assign remainder = forloop.index | modulo: 2 %}
                     {% if remainder == 0 %}
-                    <li>
-                    {% else %}
                     <li class="timeline-inverted">
+                    {% else %}
+                    <li>
                     {% endif %}
                         <div class="timeline-image">
                             <img class="img-circle img-responsive" src="img/about/{{ event.date }}.jpg" alt="">
