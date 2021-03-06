@@ -1,16 +1,56 @@
-url: https://germanvillarreal.github.io
-baseurl: /gnarweb/
+url: '/'
+baseurl: ''
 # Site settings
 title: Vancouver Snowboard Lessons
 email: vo.german@gmail.com
-description: "Hey! Are you looking to learn how to Snowboard? I'm a certified Instructor who loves sharing my passion. Check out my bio, and contact me for rates!"
+description: Hey! Are you looking to learn how to Snowboard? I'm a certified Instructor who loves sharing my passion. Check out my bio, and contact me for rates!
 
 
 # Team names, titles and social links
 people:
 - name: German Villarreal
   pic: 1
-  position: Snowboard Instructor
+  position: Certified Snowboard Instructor
+
+services:
+- name: Private Lessons
+  pic: fa-user-plus
+  description: This is probably the best way to get started! We'll start with getting used to the weight of our board and finding a nice balanced position; let's see how far we get!
+- name: Group Lessons
+  pic: fa-users
+  description: Woa, how'd you get so many friends? If you all want to have some fun in the snow and improve your snowboarding, send me a message and we can make it happen!
+- name: Bootcamp
+  pic: fa-calendar-o
+  description: Have some more time? With this booking we can split up a few hours across a week or 2. Ideal to advance a few levels and get comfortable in new terrain! Upgrade any lesson to a bootcamp!
+- name: Español
+  pic: fa-plane
+  description: ¿De donde eres? ¿Vienes de visita? Yo soy Mexicano; llevo como 15 años y no se me a olvidado el español. Tambien tomo fotos para el insta con el panorama chilo. ¿Que quieres aprender?
+- name: Tune Up
+  pic: fa-wrench
+  description: Already a gnar shredder? Let's take a look at your tecnique and find the little improvements that can take you to the next level! Bad riding habits will take practice to improve!
+- name: Terrain Park
+  pic: fa-ambulance
+  description: Helmets mandatory! I'll have ski patrol on standby and will let you know when the landing is clear. But seriously, want to get some air? Need some tips on rails or boxes?
+
+
+events:
+- title: <3 Snowboarding
+  date: 2005
+  desc: 
+- title: 
+  date: 2007
+  desc: 
+- title: 
+  date: 2011
+  desc: 
+- title: 
+  date: 2014
+  desc: 
+- title: 
+  date: 2016
+  desc: 
+
+
 
 
 # Build settings
